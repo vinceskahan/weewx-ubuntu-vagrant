@@ -1,8 +1,8 @@
 
-# uncomment to set the timezone to where we're at (edit to taste)
 TIMEZONE="US/Pacific-New"
-echo $TIMEZONE > /etc/timezone
-dpkg-reconfigure --frontend noninteractive tzdata
+
+# systemd is taking over the world step by step, inch by inch...
+sudo timedatectl set-timezone ${TIMEZONE}
 
 # add the weewx apt-get repo
 curl -s http://weewx.com/keys.html | sudo apt-key add -
