@@ -1,3 +1,4 @@
+## DEPRECATED 2018-0402 - PLEASE USE https://github.com/vinceskahan/weewx-vagrant
 
 This is a minimal Ubuntu setup for Vagrant to run weewx
 in simulator mode using the current version available
